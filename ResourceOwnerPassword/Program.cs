@@ -19,8 +19,8 @@ namespace ResourceOwnerPassword
                 ClientId = "ro.client",
                 ClientSecret = "secret",
 
-                UserName = "alice",
-                Password = "123",
+                UserName = "bob",
+                Password = "121",
 
                 Scope = "api2"
             });

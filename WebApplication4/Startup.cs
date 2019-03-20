@@ -19,6 +19,7 @@ namespace WebApplication4
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
                 .AddInMemoryApiResources(Config.GetSoluction())
                 .AddTestUsers(Config.GetUsers())
+                //.AddResourceOwnerValidator()
                 .AddInMemoryClients(Config.GetClients()).AddDeveloperSigningCredential();//.AddSigningCredential();.AddValidationKey()
         }
 
