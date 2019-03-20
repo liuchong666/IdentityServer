@@ -1,0 +1,11 @@
+C:\Users\lc\source\repos\WebApplication4\Client\bin\Debug\netcoreapp2.2\Client.deps.json
+C:\Users\lc\source\repos\WebApplication4\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.json
+C:\Users\lc\source\repos\WebApplication4\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.dev.json
+C:\Users\lc\source\repos\WebApplication4\Client\bin\Debug\netcoreapp2.2\Client.dll
+C:\Users\lc\source\repos\WebApplication4\Client\obj\Debug\netcoreapp2.2\Client.csproj.CoreCompileInputs.cache
+C:\Users\lc\source\repos\WebApplication4\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfoInputs.cache
+C:\Users\lc\source\repos\WebApplication4\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfo.cs
+C:\Users\lc\source\repos\WebApplication4\Client\bin\Debug\netcoreapp2.2\Client.pdb
+C:\Users\lc\source\repos\WebApplication4\Client\obj\Debug\netcoreapp2.2\Client.dll
+C:\Users\lc\source\repos\WebApplication4\Client\obj\Debug\netcoreapp2.2\Client.pdb
+C:\Users\lc\source\repos\WebApplication4\Client\obj\Debug\netcoreapp2.2\Client.csprojAssemblyReference.cache
