@@ -17,12 +17,18 @@ namespace WebApplication4
         {
             services.AddMvc();
 
+            //这里不仅要把IdentityServer注册到容器中, 还要至少对其配置三点内容:
+            //1.哪些API可以使用这个authorization server.
+            //2.那些客户端Client(应用)可以使用这个authorization server.
+            //3.指定可以使用authorization server授权的用户.
             services.AddIdentityServer()
-                .AddInMemoryIdentityResources(Config.GetIdentityResources())
-                .AddInMemoryApiResources(Config.GetSoluction())
-                .AddTestUsers(Config.GetUsers())
-                //.AddResourceOwnerValidator()
-                .AddInMemoryClients(Config.GetClients()).AddDeveloperSigningCredential();//.AddSigningCredential();.AddValidationKey()
+                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
+                 .AddInMemoryApiResources(Config.GetSoluction())
+                 .AddTestUsers(Config.GetUsers())
+                 //.AddResourceOwnerValidator()
+                 .AddInMemoryClients(Config.GetClients())
+                 .AddDeveloperSigningCredential();//.AddSigningCredential();.AddValidationKey()
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
