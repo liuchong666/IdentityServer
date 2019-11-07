@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,7 +28,8 @@ namespace WebApplication4
                  .AddTestUsers(Config.GetUsers())
                  //.AddResourceOwnerValidator()
                  .AddInMemoryClients(Config.GetClients())
-                 .AddDeveloperSigningCredential();//.AddSigningCredential();.AddValidationKey()
+                 .AddSigningCredential(new X509Certificate2(@"C:\Users\lc\Desktop\证书文件\myselfsigned.pfx", "123456"));
+                 //.AddDeveloperSigningCredential();//.AddSigningCredential();.AddValidationKey()
 
         }
 

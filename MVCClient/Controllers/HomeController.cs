@@ -19,6 +19,8 @@ namespace MVCClient.Controllers
 
         public IActionResult Privacy()
         {
+             HttpContext.Authentication.SignOutAsync("Cookies");
+             HttpContext.Authentication.SignOutAsync("oidc");//注销基于iodc的身份认证
             return View();
         }
 

@@ -29,7 +29,10 @@ namespace WebApplication4
             return new IdentityResource[]
             {
                 new IdentityResources.OpenId(),
-                new IdentityResources.Profile()
+                new IdentityResources.Email(),
+                new IdentityResources.Profile(),
+                new IdentityResources.Phone(),
+                new IdentityResources.Address()
             };
         }
 
@@ -44,7 +47,7 @@ namespace WebApplication4
                     ClientSecrets = {
                         new Secret("secret".Sha256()),
                     },
-                    AllowedScopes = {"api1"}
+                    AllowedScopes = {"api2"}
                 },
                 new Client
                 {
@@ -64,7 +67,7 @@ namespace WebApplication4
                     {
                         new Secret("secret".Sha256())
                     },
-                    AllowedScopes = { "api2" }
+                    AllowedScopes = { "api1" }
                 },
                 new Client
                 {
@@ -81,7 +84,9 @@ namespace WebApplication4
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Email,
+                        IdentityServerConstants.StandardScopes.Phone
                     },
 
                     //禁用授权页面
@@ -109,7 +114,11 @@ namespace WebApplication4
                     Claims = new []
                     {
                         new Claim("name", "Bob"),
-                        new Claim("website", "https://bob.com")
+                        new Claim("website", "https://bob.com"),
+                        new Claim("nickname", "老张"),
+                        new Claim("email_verified", "bob@email.com"),
+                        new Claim("email", "bob@email.com"),
+                        new Claim("phone_number", "13699285614")
                     }
                 }
             };

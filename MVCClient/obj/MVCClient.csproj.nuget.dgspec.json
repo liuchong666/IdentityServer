@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lc\\source\\repos\\WebApplication4\\MVCClient\\MVCClient.csproj": {}
+    "C:\\Users\\lc\\Desktop\\application\\IdentityServer\\MVCClient\\MVCClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lc\\source\\repos\\WebApplication4\\MVCClient\\MVCClient.csproj": {
+    "C:\\Users\\lc\\Desktop\\application\\IdentityServer\\MVCClient\\MVCClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lc\\source\\repos\\WebApplication4\\MVCClient\\MVCClient.csproj",
+        "projectUniqueName": "C:\\Users\\lc\\Desktop\\application\\IdentityServer\\MVCClient\\MVCClient.csproj",
         "projectName": "MVCClient",
-        "projectPath": "C:\\Users\\lc\\source\\repos\\WebApplication4\\MVCClient\\MVCClient.csproj",
+        "projectPath": "C:\\Users\\lc\\Desktop\\application\\IdentityServer\\MVCClient\\MVCClient.csproj",
         "packagesPath": "C:\\Users\\lc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lc\\source\\repos\\WebApplication4\\MVCClient\\obj\\",
+        "outputPath": "C:\\Users\\lc\\Desktop\\application\\IdentityServer\\MVCClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -60,10 +60,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     }

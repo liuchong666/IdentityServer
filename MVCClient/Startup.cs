@@ -55,6 +55,7 @@ namespace MVCClient
                
                options.ClientId = "mvc";
                options.SaveTokens = true;
+               options.Scope.Add("email");//Implicit 模式scope默认为openid profile
            });
         }
 

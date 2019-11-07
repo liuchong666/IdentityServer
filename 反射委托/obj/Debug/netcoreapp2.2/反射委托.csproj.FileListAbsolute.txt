@@ -1,0 +1,9 @@
+C:\Users\lc\Desktop\application\IdentityServer\反射委托\bin\Debug\netcoreapp2.2\反射委托.deps.json
+C:\Users\lc\Desktop\application\IdentityServer\反射委托\bin\Debug\netcoreapp2.2\反射委托.runtimeconfig.json
+C:\Users\lc\Desktop\application\IdentityServer\反射委托\bin\Debug\netcoreapp2.2\反射委托.runtimeconfig.dev.json
+C:\Users\lc\Desktop\application\IdentityServer\反射委托\bin\Debug\netcoreapp2.2\反射委托.dll
+C:\Users\lc\Desktop\application\IdentityServer\反射委托\bin\Debug\netcoreapp2.2\反射委托.pdb
+C:\Users\lc\Desktop\application\IdentityServer\反射委托\obj\Debug\netcoreapp2.2\反射委托.AssemblyInfoInputs.cache
+C:\Users\lc\Desktop\application\IdentityServer\反射委托\obj\Debug\netcoreapp2.2\反射委托.AssemblyInfo.cs
+C:\Users\lc\Desktop\application\IdentityServer\反射委托\obj\Debug\netcoreapp2.2\反射委托.dll
+C:\Users\lc\Desktop\application\IdentityServer\反射委托\obj\Debug\netcoreapp2.2\反射委托.pdb

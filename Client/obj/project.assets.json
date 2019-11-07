@@ -794,11 +794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lc\\source\\repos\\WebApplication4\\Client\\Client.csproj",
+      "projectUniqueName": "C:\\Users\\lc\\Desktop\\application\\IdentityServer\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "C:\\Users\\lc\\source\\repos\\WebApplication4\\Client\\Client.csproj",
+      "projectPath": "C:\\Users\\lc\\Desktop\\application\\IdentityServer\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\lc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lc\\source\\repos\\WebApplication4\\Client\\obj\\",
+      "outputPath": "C:\\Users\\lc\\Desktop\\application\\IdentityServer\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -840,10 +840,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
       }
     }
   }

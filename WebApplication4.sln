@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResourceOwnerPassword", "ResourceOwnerPassword\ResourceOwnerPassword.csproj", "{B99BDB73-E69E-47C7-AB38-FA27FB4A2D5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCClient", "MVCClient\MVCClient.csproj", "{4E611982-926B-408C-B8C6-82E0AE283094}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCClient", "MVCClient\MVCClient.csproj", "{4E611982-926B-408C-B8C6-82E0AE283094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反射委托", "反射委托\反射委托.csproj", "{91F95B2B-31D4-4460-97F2-1881EB028EB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4E611982-926B-408C-B8C6-82E0AE283094}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E611982-926B-408C-B8C6-82E0AE283094}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E611982-926B-408C-B8C6-82E0AE283094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F95B2B-31D4-4460-97F2-1881EB028EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F95B2B-31D4-4460-97F2-1881EB028EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F95B2B-31D4-4460-97F2-1881EB028EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F95B2B-31D4-4460-97F2-1881EB028EB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

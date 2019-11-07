@@ -4,3 +4,18 @@
 
 *.ide-shm
 *.ide-wal
+/Api/bin/Debug/netcoreapp2.2
+/Api/obj/Debug/netcoreapp2.2
+/Api/obj
+/Client/bin/Debug/netcoreapp2.2
+/Client/obj/Debug/netcoreapp2.2
+/MVCClient/bin/Debug/netcoreapp2.2
+/MVCClient/obj/Debug/netcoreapp2.2
+/ResourceOwnerPassword/bin/Debug/netcoreapp2.2
+/ResourceOwnerPassword/obj/Debug/netcoreapp2.2
+/WebApplication4/bin/Debug/netcoreapp2.2
+/WebApplication4/obj/Debug/netcoreapp2.2
+/WebApplication4/obj
+/ResourceOwnerPassword/obj
+/MVCClient/obj
+/Client/obj
